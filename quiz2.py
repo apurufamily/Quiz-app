@@ -3,7 +3,6 @@ from tkinter import *
 import random
 import sqlite3 
 import time
-#hi
 def loginPage(logdata):
     sup.destroy()
     global login
