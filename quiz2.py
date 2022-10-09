@@ -33,6 +33,8 @@ def loginPage(logdata):
     plabel.place(relx=0.215,rely=0.5)
     pas = Entry(login_frame,bg='#d3d3d3',fg='black',show="*",textvariable = password)
     pas.config(width=42)
+    
+    #Done by Roshan
     pas.place(relx=0.31,rely=0.5)
 
     def check():
